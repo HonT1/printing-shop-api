@@ -6,7 +6,7 @@ const orderSchema = new mongoose.Schema(
         contactInfo: { type: String },
         productType: { type: String, required: true },
         quantity: { type: Number, required: true },
-        size: { type: String, enum: ["Color", "Black"], default: "Black" }, //finishing size
+        size: { type: String }, //finishing size
         color: { type: String }, //contain color pages
         paperType: { type: String }, // add paper types
         finishing: { tupe: String }, // add cover options and other
